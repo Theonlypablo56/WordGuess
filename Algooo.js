@@ -57,9 +57,9 @@ function numToLetter(number){
 
 
 
-//THIS PORTION CAN BE CUT OUT AND INSTEAD USE THE FUNCTION ALONE
+//THIS PORTION CAN BE CUT OUT AND INSTEAD USE THE FUNCTION ALONE---------------------------------
 while (tries <= 1000){
-    wordGame('mami');
+    wordGame('joe');
 }
 //This while function guesses until the total quota is reached
 
@@ -72,6 +72,6 @@ console.log(`${avg} is the average of all`);
 //this averages all the guesses
 
 //THIS IS THE END OF THE CUTTABLE PORTION REMEMBER TO USE wordGame('word') AS WELL AS REMOVING THE
-// COMMENT SLASHINGS IN LINE 23 TO GET THE TOTAL TRIES
+// COMMENT SLASHINGS IN LINE 23 TO GET THE TOTAL TRIES--------------------------------------------
 
 console.timeEnd();
